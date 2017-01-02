@@ -1,5 +1,5 @@
 ## My experiments with using TypeScript for NodeJS
-In addition to providing a better structure, typesafety and optionally object oriented design, TypeScript allows the use of newer programatic models with NodeJS.
+TypeScript can provide better structure, types afety and  object oriented design to your NodeJS code. In addition, TypeScript allows the use of newer programmatic models not yet avaiable in NodeJS.
 
 This project shows some very basic examples of callbacks, promises and async/await. It also shows how to use the async/await functionality with a node library that only supports callbacks (e.g. cassandra-driver).
 

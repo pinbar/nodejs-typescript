@@ -1,10 +1,12 @@
+/// <reference path="../node_modules/@types/jasmine/index.d.ts" />
+
 var cassController = require('./cassandra-controller');
 
 beforeAll(function () {
     this.cass = new cassController.CassandraController();
 })
 
-describe("Cassandra tests", function () {
+describe("Cassandra integration tests", function () {
 
     it("should be a valid username password", function (done) {
         console.log('in test');

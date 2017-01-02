@@ -3,6 +3,9 @@
 .settings
 .vscode
 
+# Javascript files
+*.js
+
 # Dependencies
 node_modules/
 
